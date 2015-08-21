@@ -1,0 +1,11 @@
+<apex:page >
+<apex:canvasApp applicationName="Sparkler"
+    height="812px"
+    width="1000px"
+    parameters="
+    {
+         'ts.name': 'Accounts_Dashboard/MyAccounts',
+         'ts.trustedTicket.username': '<user.email>',
+         'ts.filter': 'Full Name=<user.firstName> <user.lastName>',
+    }" />
+</apex:page>

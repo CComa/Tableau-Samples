@@ -1,0 +1,11 @@
+<apex:page standardController="Account">
+<apex:canvasApp applicationName="Sparkler" 
+    height="636px" 
+    width="804px" 
+    parameters="
+    {
+    	'ts.name': 'Account_Dashboard/AcctDashboard',
+    	'ts.trustedTicket.username': '<user.email>',
+    	'ts.filter': 'Account_Parameter={!Account.Id}',
+    }" />
+</apex:page>

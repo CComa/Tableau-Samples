@@ -1,0 +1,20 @@
+<apex:page >
+<apex:canvasApp applicationName="Sparkler" 
+    height="812px" 
+    width="1000px" 
+    parameters="
+    {
+    	'ts.javascriptLib': 'https://{SETME}/javascripts/api/viz_v1.js',
+    	'ts.height': '812',
+    	'ts.width': '1000',
+    	'ts.hostUrl': 'https://{SETME}',
+    	'ts.siteRoot': '/t/{SETME}',
+    	'ts.name': 'Accounts_Dashboard/MyAccounts',
+    	'ts.tabs': 'yes',
+    	'ts.toolbar': 'yes',
+    	'ts.trustedTicket.host': '{SETME}',
+    	'ts.trustedTicket.siteId': '{SETME}',
+    	'ts.trustedTicket.username': '<user.email>',
+    	'ts.filter': 'Full Name=<user.firstName> <user.lastName>',
+    }" />
+</apex:page>

@@ -1,0 +1,11 @@
+<apex:page standardController="Opportunity">
+<apex:canvasApp applicationName="Sparkler" 
+    height="536px" 
+    width="654px" 
+    parameters="
+    {
+    	'ts.name': 'Opportunity_Dashboard/OpportunityDashboard',
+    	'ts.trustedTicket.username': '<user.email>',
+    	'ts.filter': 'Opportunity_Parameter={!Opportunity.Id}',
+    }" />
+</apex:page>
